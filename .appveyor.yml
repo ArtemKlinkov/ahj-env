@@ -9,7 +9,6 @@ branches:
 cache: node_modules  # кеширование
 
 install:
-  - npm install yarn
   - yarn  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
